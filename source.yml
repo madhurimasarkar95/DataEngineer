@@ -1,0 +1,5 @@
+sources:
+  - name: L3_CONSUMPTION      # This should match the source name used in your SQL
+    schema: L3_CONSUMPTION    # The schema where your table is located
+    tables:
+      - name: CUSTOMERS # The table you want to reference
